@@ -36,7 +36,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 
 		</file:listener>
 
-		<logger level="INFO" doc:name="Logger" doc:id="aa2afd83-f7d9-48de-8bf1-834ecdafc441" message="#[payload]" category="content of read file "/>
+		<logger level="INFO" doc:name="Logger" doc:id="aa2afd83-f7d9-48de-8bf1-834ecdafc441" message="#[payload]" category="content of read file******"/>
 
 		<ee:transform doc:name="Transform Message" doc:id="0a295b79-fb9e-4393-83c2-198a50338e70" >
 
